@@ -1,4 +1,4 @@
-# intro2cs <img align="right" width="300" height="50" src=https://upload.wikimedia.org/wikipedia/en/1/13/Hebrew_University_new_Logo_vector.svg>
+# intro2cs <img align="right" width="200" height="60" src=https://upload.wikimedia.org/wikipedia/en/1/13/Hebrew_University_new_Logo_vector.svg>
 Assignments for course **67101 - Introduction to Computer Science** given by The Hebrew University of Jerusalem's computer science department.
 
 ### Syllabus
