@@ -1,8 +1,14 @@
-def quadric_equation(a, b, c):
-    # a, b and c are the coefficients of a quadratic equation:
-    # a * (x ** 2) + (b * x) + c = 0
-    # x1, x2 are the equation solutions
+def quadratic_equation(a, b, c):
+    """ Solves a quadratic equation in form of: a * (x ** 2) + (b * x) + c = 0
 
+    Parameters:
+        a (float): the first coefficient.
+        b (float): the second coefficient.
+        c (float): the third coefficient.
+
+    Returns:
+        quadratic_equation(a, b, c): a tuple in length two that holds the solution.
+    """
     a_doubled = 2 * a
     discriminant = (b ** 2) - (2 * a_doubled * c)
 
@@ -19,9 +25,9 @@ def quadric_equation(a, b, c):
     return x1, x2
 
 
-def quadric_equation_user_input():
+def quadratic_equation_user_input():
     a, b, c = input("Insert coefficients a, b and c: ").split()
-    x1, x2 = quadric_equation(float(a), float(b), float(c))
+    x1, x2 = quadratic_equation(float(a), float(b), float(c))
 
     if x1 is None:
         print("The equation has no solutions")
