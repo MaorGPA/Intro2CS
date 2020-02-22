@@ -12,7 +12,7 @@ def draw_petal():
     turtle.right(135)
 
 
-def draw_flower():
+def draw_tepal():
     turtle.left(45)
     draw_petal()
     turtle.left(90)
@@ -21,26 +21,37 @@ def draw_flower():
     draw_petal()
     turtle.left(90)
     draw_petal()
-    turtle.left(135)
+
+
+def draw_stem():
+    turtle.right(45)
     turtle.forward(150)
+
+
+def draw_flower():
+    draw_tepal()
+    draw_stem()
 
 
 def draw_flower_advanced():
     draw_flower()
+    # Move turtle to next flower starting position
+    turtle.up()
     turtle.right(90)
-    turtle.up
     turtle.forward(150)
     turtle.right(90)
     turtle.forward(150)
-    turtle.left(90)
-    turtle.down
+    turtle.right(90)
+    turtle.down()
 
 
 def draw_flower_bed():
-    turtle.up
+    # Move turtle to starting position
+    turtle.up()
     turtle.forward(200)
-    turtle.left(180)
-    turtle.down
+    turtle.down()
+
+    # Draw three flowers
     draw_flower_advanced()
     draw_flower_advanced()
     draw_flower_advanced()
