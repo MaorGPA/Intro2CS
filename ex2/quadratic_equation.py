@@ -1,5 +1,5 @@
 def quadratic_equation(a, b, c):
-    """ Solves a quadratic equation in form of: a * (x ** 2) + (b * x) + c = 0
+    """Solves a quadratic equation in form of: a * (x ** 2) + (b * x) + c = 0
 
     Parameters:
         a (float): the first coefficient.

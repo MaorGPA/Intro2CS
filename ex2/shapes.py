@@ -2,7 +2,7 @@ import math
 
 
 def shape_area():
-    """ Calculates and prints the area of a circle, rectangle or trapezoid according to user selection.
+    """Calculates and prints the area of a circle, rectangle or trapezoid according to user selection.
 
     Returns:
         shape_area(): a float which is the area of the selected shape.
